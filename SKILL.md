@@ -630,3 +630,5 @@ Hermes Hub installs only `SKILL.md` plus **explicitly path-referenced** files un
 <!-- END HUB_SUPPORT_FILES -->
 
 Full tree also keeps root schemas, profiles, evals, VERSION, and manifest for clone/`./install.sh` installs (scripts resolve either layout via `scripts/paths.py`).
+
+Source, profile, and migration rules: `references/source-and-upgrades.md`.

@@ -224,3 +224,5 @@ python scripts/neon_genie.py do run --recipe commercial --out out/neon-genie/aud
 <div align="center">
 <sub>Neon Genie v3.26.0 · advice only · evidence before invention</sub>
 </div>
+
+Source, profile, and migration rules: `references/source-and-upgrades.md`.
