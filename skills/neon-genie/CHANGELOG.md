@@ -7,10 +7,50 @@ and this project uses semantic versioning.
 
 ## [Unreleased]
 
+## [3.27.0] — 2026-09-05
+
 ### Changed
 
-- Public install/docs paths updated for repo rename **NeonGenie**
-  (`scrimshawlife-ctrl/NeonGenie`, Pages `…/NeonGenie/`)
+- Gate ISO: irreversible work requires conjunction `independent` ∧ versioned log pointer; alias table packet `validation_isolation.*` ↔ graph `validation_step.*`; `validation_log_version` on graph `validation_step` (PROMETHEUS gaps).
+- **Required fields** (fail closed): `logic_label` on opportunity/product/zero-option packets;
+  `stage` on run-envelope (`shape`|`test`|`scale`); `evidence_ledger` on EvidenceIntelligence packets.
+- Warn-then-require period for 3.26.x closed after dual-logic / U4 / U7 goldens.
+- SkillEvaluator `metadata.author` in frontmatter (`Name <email>` shape)
+- Public README / badge strings aligned to **3.27.0** (away from stale v3.23 / 3.26 copy)
+
+### Added
+
+- PR-A: optional `validation_isolation` on WayfinderExecutionPacket; Gate ISO.
+- PR-B: PaperPilot `research-search-dag` schema + Gate PILOT (optional attach; write when research runs).
+- Goldens: LOGIC / STAGE / BRIC / CITE / LEDGER / ISO / PILOT (`effectual-missing-means`,
+  `scale-without-test`, `fabricated-cite`, `uncited-claim`, `contradict-unresolved-testable`,
+  `irreversible-without-validation`, `irreversible-missing-log-pointer`,
+  `research-ran-without-dag`, `dag-fabricated-cite`)
+
+### Notes (public mirror)
+
+- 2026-09-17 PT: this public tree (`scrimshawlife-ctrl/NeonGenie`) is synced to the
+  org 3.27.0 skill surface. Installer/verification safety from **#20** is preserved:
+  staged `install.sh` + `scripts/install_transaction.py`, `tests_audit/`, and
+  `references/source-and-upgrades.md`. Advisory only; no spend/publish/contact.
+
+## [3.26.1] — 2026-09-01
+
+### Fixed
+
+- `SKILL.md` frontmatter now matches Hermes Agent v0.21.0 (tag v2026.8.31):
+  one-sentence `description` ≤60 characters, required author/license/platforms
+  and `metadata.hermes.{tags, related_skills}`, frontmatter at byte 0.
+- `do check` rejects folded or over-long descriptions so the skill index
+  no longer truncates routing text at 57 characters.
+
+### Changed
+
+- Skill body uses the v0.21 section order (When to Use, Prerequisites, How to
+  Run, Quick Reference, Procedure, Pitfalls, Verification).
+- Packaging examples use `${HERMES_SKILL_DIR}` and Hermes `terminal`.
+- Author credit is `Daniel Meyer (scrimshawlife-ctrl), Hermes Agent`. Applied
+  Alchemy Labs / Zero State credit remains in the skill body.
 
 ## [3.26.0] — 2026-08-08
 
@@ -42,6 +82,8 @@ and this project uses semantic versioning.
 - `do run --brief` auto-recipe prefers `capital-sprint` over commercial when both match
 - Hub package no longer ships Pages assets, hallmark, or monorepo ADR/checklist bulk
 - Public docs/README aligned to **3.25.0** (site link, founder prompts, capital-sprint CLI)
+- Public install/docs paths updated for repo rename **NeonGenie**
+  (`scrimshawlife-ctrl/NeonGenie`, Pages `…/NeonGenie/`)
 
 ## [3.25.0] — 2026-08-06
 

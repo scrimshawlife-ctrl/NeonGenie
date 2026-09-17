@@ -8,7 +8,8 @@
     "opportunities",
     "shadow_flags",
     "system_state",
-    "completion_proof"
+    "completion_proof",
+    "logic_label"
   ],
   "properties": {
     "constraints": {},
@@ -20,10 +21,19 @@
       "description": "Observable proof of first cash/signal or honest NOT_COMPUTABLE reason"
     },
     "proof_path": {
-      "description": "Micro-loop steps: narrative → action → result → reinforcement"
+      "description": "Micro-loop steps: narrative \u2192 action \u2192 result \u2192 reinforcement"
     },
     "status": {},
-    "reason": {}
+    "reason": {},
+    "logic_label": {
+      "type": "string",
+      "enum": [
+        "effectual",
+        "causal",
+        "mixed"
+      ],
+      "description": "Dual-logic label (U1). Required as of 3.27.0. Gate LOGIC."
+    }
   },
   "additionalProperties": true
 }

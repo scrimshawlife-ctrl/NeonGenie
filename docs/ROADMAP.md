@@ -86,6 +86,9 @@ Public entry points:
 | **3.23.0** | Release automation, branch protection, gates.yaml registry, CONTRIBUTING |
 | **3.24.0** | Privacy-by-construction spine + runtime (issues #15 + #17); tagged `v3.24.0` |
 | **3.25.0** | Founder cold-start: founder-language routing, capital_sprint recipe, default transitional-builder job shape, hub list after doctrine, judgment honesty |
+| **3.26.0** | Hermes packaging wizard (`do wizard`), presets, `references/wizard.md` |
+| **3.26.1** | Hermes Agent v0.21 frontmatter (one-sentence description ≤60 chars) |
+| **3.27.0** | Gate ISO + PaperPilot PILOT; required `logic_label` / envelope `stage` / `evidence_ledger`; BRIC / CITE / LEDGER / LOGIC / STAGE fail-closed |
 
 Also on main around this line: **capital_sprint** profile/protocol and **external-signals** corpus (labeled references).
 
@@ -111,7 +114,17 @@ Also on main around this line: **capital_sprint** profile/protocol and **externa
 | Helpers & tests | `privacy_preflight.py`, runtime/integration unit tests, 12 behavioral cases (incl. privacy) |
 | Hub parity | Distribution spine mirrors + package under `skills/neon-genie/` |
 
-**Program next (optional waves):** W2 Outcomes ∥ W3 Judgment in parallel, then W4 distribution/announce polish. Interfaces: privacy fields on receipt/envelope, `do privacy`, Wayfinder remains optional handoff only.
+## 3.27.0 epistemic gates — shipped
+
+| Theme | Shipped |
+|-------|---------|
+| Dual-logic / stage | Required `logic_label` (`effectual`\|`causal`\|`mixed`); envelope `stage` (`shape`\|`test`\|`scale`); Gates LOGIC / STAGE / BRIC / CITE |
+| Evidence ledger | Shared `evidence-ledger.schema.json`; required on EvidenceIntelligence; optional peer attach; Gate LEDGER |
+| Isolation | `validation_isolation` on WayfinderExecutionPacket; Gate ISO (independent ∧ versioned log pointer) |
+| PaperPilot | `research-search-dag` schema + Gate PILOT (write DAG when research runs) |
+| Packaging | VERSION / SKILL / manifest / schemas / CHANGELOG aligned; public mirror keeps #20 installer safety |
+
+**Program next (optional waves):** W2 Outcomes ∥ W3 Judgment in parallel, then W4 distribution/announce polish. Interfaces: privacy fields on receipt/envelope, `do privacy`, Wayfinder remains optional handoff only. Live multi-turn Hermes LLM evals stay optional (fixture-only when the host has no Hermes / API keys).
 
 Design/plan: [privacy spine design](./superpowers/specs/2026-08-06-neon-genie-privacy-spine-design.md) · [implementation plan](./superpowers/plans/2026-08-06-neon-genie-privacy-spine.md)
 
