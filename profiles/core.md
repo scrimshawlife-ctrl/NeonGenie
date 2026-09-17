@@ -82,3 +82,37 @@ Composite score never overrides a mandatory gate failure.
 ## Outputs
 
 Always consider `NeonGenieRunReceipt`. Other packets by profile selection.
+
+## Dual-logic + stage + cite (doctrine 2026-09-05)
+
+On opportunity/product/zero-option runs, CLEAR also checks:
+
+- **logic_label** present (`effectual` | `causal` | `mixed`) — Gate LOGIC.
+- **stage** on envelope when opportunity/agentic profiles resolve (`shape` | `test` | `scale`) — Gate STAGE; `scale` needs test evidence.
+- **Citation integrity** — never invent arXiv/DOI; Gate CITE.
+- **Bricolage** — no proposed spend/buy/build without repertoire inventory — Gate BRIC.
+
+`logic_label` and envelope `stage` are **required** as of 3.27.0 (Gate LOGIC / STAGE).
+
+## Reconcile 2026-09-05 (prose-only)
+
+Schema/SKILL field lift **HOLD** (Danny skipped intent). Additional CLEAR prose:
+
+- Empty means → `NOT_COMPUTABLE` + DataRequest (P0-1).
+- Hypothesis↔MVP map before ≥TESTABLE — Gate HYP (P0-2; not Wayfinder Gate H).
+- Metric roles; guardrail blocks promotion — Gate METRIC (P0-3).
+
+## Continue 2026-09-05 (LIVE + CSET)
+
+- Gate LIVE: offline/logged causal pass before live A/B or pricing recs that can hurt users; human-yes required; no auto-roll.
+- Gate CSET: competitor_set_definition + metric before share/competitive OBSERVED claims.
+
+## Claim graph / Gate LEDGER (U4 · required evidence_ledger on EvidenceIntelligence as of 3.27.0)
+
+When `evidence_intelligence` resolves (or any material external claim is promoted):
+
+- Treat the claim graph as CLEAR **control plane**: every promoting claim needs an active ledger cite.
+- Relations: `Support` | `Depend-on` | `Contradict` | `Invalidate` | `Update`.
+- Gate **LEDGER**: uncited material claim, or invent-OBSERVED from model prior without ledger cite → fail CLEAR.
+- Fluency of the final answer is **not** provenance. Do not invent Brier scores or auto-settle.
+- `evidence_ledger` required on EvidenceIntelligence packets (3.27.0).

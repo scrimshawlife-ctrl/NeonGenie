@@ -97,12 +97,15 @@ hub_support_globs:
   - references/hermes-runtime-contract.md
   - references/privacy-contract.md
   - references/wizard.md
+  - references/profile-routing.md
+  - references/output-selection.md
   - references/CAPABILITY_MAP.md
   - references/GOLDEN_TESTS.md
   - references/anti-overclaim-patterns.md
   - references/post-seal-verification.md
   - references/schema-versioning.md
   - references/PRIVACY.md
+  - references/source-and-upgrades.md
   - references/profiles/*.md
   - references/schemas/*.json
   - templates/request.yaml

@@ -35,3 +35,12 @@ Wave 1 captures invariants for later automated runners. Fixtures live in `evals/
 | `private-gap-must-request.json` | Gate Q — private decision-critical gap without DataRequest → GATE_FAIL |
 | `private-gap-request-open.json` | Gate Q — DataRequest open + blocks_promotion → PASS, promotion_capped |
 | `private-gap-silent-invent.json` | Gate R — private OBSERVED without DataRequest → GATE_FAIL |
+| `effectual-missing-means.json` | Gate BRIC — effectual empty means without DataRequest → GATE_FAIL |
+| `scale-without-test.json` | Gate STAGE — scale without test evidence → GATE_FAIL |
+| `fabricated-cite.json` | Gate CITE — unverified arXiv/DOI → GATE_FAIL |
+| `uncited-claim.json` | Gate LEDGER — material claim without active ledger cite → GATE_FAIL |
+| `contradict-unresolved-testable.json` | Gate LEDGER — unresolved Contradict/Invalidate at ≥TESTABLE → GATE_FAIL |
+| `irreversible-without-validation.json` | Gate ISO — irreversible agentic without independent validation → GATE_FAIL |
+| `research-ran-without-dag.json` | Gate PILOT — research ran without DAG → GATE_FAIL |
+| `dag-fabricated-cite.json` | Gate CITE — fabricated cite inside DAG → GATE_FAIL |
+| `irreversible-missing-log-pointer.json` | Gate ISO — irreversible without versioned log pointer → GATE_FAIL |

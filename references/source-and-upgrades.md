@@ -1,7 +1,7 @@
 # Source identity and upgrades
 
-This distribution is `scrimshawlife-ctrl/NeonGenie`, version `3.26.0`, based on commit
-`9e7e6d388a77a9f6103fba6f982457afc873084b` before the local audit-fix commit. Record the actual installed commit
+This distribution is `scrimshawlife-ctrl/NeonGenie`, version `3.27.0`, based on commit
+`516689f1308d3a5e009e901343bbc119a3f39cc6` (#20 installer safety) plus the 3.27.0 skill-surface sync. Record the actual installed commit
 with `git rev-parse HEAD` before installation; do not use a version string alone
 as a source identity. Root and hub packaging are distribution surfaces, not a
 claim that organizational, personal, or legacy embedded variants are identical.

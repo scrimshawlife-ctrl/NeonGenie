@@ -4,6 +4,8 @@ Gates that keep Neon Genie evidence-bound and advisory. Fail closed when a patte
 
 Use alongside mandatory gates in `SKILL.md`. Labels: `OBSERVED` · `INFERRED` · `SPECULATIVE` · `NOT_COMPUTABLE`.
 
+**Fluency ≠ provenance:** a fluent final answer (or a tidy agent trace) is not evidence that claims are grounded. Execution provenance ≠ final-answer accuracy. Prefer claim-graph ledger cites over narrative polish (arXiv:2606.04990, 2608.04738, 2607.28374). Do not invent Brier / auto-settle scores.
+
 | Gate | Pattern | Repair |
 |------|---------|--------|
 | **A — Fabricated fact** | Claim presented as true without source or research attempt | Label `NOT_COMPUTABLE` or re-fetch; never invent `OBSERVED` |
@@ -35,6 +37,27 @@ Use alongside mandatory gates in `SKILL.md`. Labels: `OBSERVED` · `INFERRED` ·
 Gates **A–R** apply during CLEAR (evidence + anti-overclaim). Gates **S–Y** are privacy-by-construction (after authority and evidence P–R). See Evidence Request Protocol and privacy doctrine in `SKILL.md`; profile `profiles/privacy.md`; contract `references/PRIVACY.md`.
 
 CLEAR order: **authority → evidence P–R → privacy S–Y → remaining anti-overclaim**.
+
+
+| **LOGIC — Dual-logic missing** | Opportunity/Product/Zero-Option run without `effectual`/`causal`/`mixed`, or effectual without means inventory | Emit label; inventory means or fail CLEAR |
+| **STAGE — Scale without test** | Envelope/stage `scale` without test evidence, or missing stage on opp/agentic run | Set `shape`/`test`/`scale`; block scale |
+| **BRIC — Buy/build without repertoire** | Proposed spend/buy/build without declared-means inventory | Inventory first; Gate G if inventing resources |
+| **CITE — Generated citation** | arXiv/DOI/title invented rather than verified fetch or operator-supplied | Drop or re-fetch; never invent OBSERVED cites |
+
+
+| **HYP — Hypothesis↔MVP missing** | ≥TESTABLE without falsifiable hypothesis ↔ MVP ↔ kill map | Emit map; distinct from Wayfinder Gate H |
+| **METRIC — Role/guardrail** | Decision metric lacks success\|guardrail\|deterioration\|quality, or guardrail breached | Label roles; guardrail blocks promotion |
+
+
+| **LIVE — Offline before live** | Live A/B or pricing rec without offline/logged causal pass + human-yes; or p-value as OBSERVED without source | Offline pass or human-yes; keep n SPECULATIVE; no auto-roll |
+| **CSET — Competitor set missing** | Share/competitive OBSERVED without competitor_set_definition + metric | Define set/metric or DataRequest; else Gate B/Q |
+
+
+| **LEDGER — Uncited claim / invent OBSERVED** | Material claim promotes without active ledger cite, or OBSERVED from model prior without ledger edge; unresolved Contradict/Invalidate at ≥TESTABLE | Emit ledger cite + typed relation (`Support`/`Depend-on`/`Contradict`/`Invalidate`/`Update`); else relabel or block |
+
+| **ISO — Missing validation isolation** | Irreversible agentic action / graph without independent validation step + log pointer | Emit validation_step / validation_isolation; PROMETHEUS consumes — no fifth bot |
+
+| **PILOT — Research DAG missing** | Research ran but `research_search_dag` missing/empty | Emit keyword→cite-expand→filter→score→extract DAG; fabricated IDs → CITE |
 
 ## Scorecard rule
 
