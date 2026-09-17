@@ -66,6 +66,7 @@ def main() -> int:
             "completion_proof": "first paid outcome within 14 days",
             "scorecard": {},
             "promotion_state": "TESTABLE",
+            "logic_label": "mixed",
         }
         packet.write_text(json.dumps(full), encoding="utf-8")
         r = run(["do", "validate", "--packet", str(packet), "--type", "opportunity"])

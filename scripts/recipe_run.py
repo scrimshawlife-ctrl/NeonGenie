@@ -194,6 +194,7 @@ def recipe_zero_option_executable(out: Path) -> int:
             "reinforcement": "log outcome; no fictional pipeline",
         },
         "completion_proof": "Paid engagement booked or written refusal within 7 days",
+        "logic_label": "effectual",
         "proof_path": [
             "list warm contacts from declared access",
             "send one bounded paid diagnostic offer",
